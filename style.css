@@ -1,0 +1,14 @@
+/* Canvas boyutunu ayarlayın */
+#game-container {
+    width: 75%;              /* Canvas genişliği ekran genişliğine ayarlanır */
+    height: 100vh;            /* Canvas yüksekliği ekranın tamamını kaplar */
+    display: block;           /* Canvas'ın blok seviyesinde yer almasını sağlar */
+    background-color: #f0f0f0; /* Oyun alanının arka plan rengi */
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+    border: 1px solid black;  /* To visually see the canvas boundaries */
+  }
+  
